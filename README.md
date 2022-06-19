@@ -15,7 +15,7 @@ and
 
 npm run dev 
 
-for parcel to build
+to start the server
 
 npm install 
 
