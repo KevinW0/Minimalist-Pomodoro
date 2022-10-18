@@ -12,8 +12,10 @@ const StyledTimerH1 = styled.h1`
 
 
 const returnFormattedTime = (timeLeft) => {
-    const seconds = String(timeLeft % 60).padStart("2", "0");
-    const minutes = String(Math.round((timeLeft - seconds) / 60)).padStart("2", "0");
+    var seconds : number | string = timeLeft % 60
+    const minutes = String(Math.round((timeLeft - seconds) / 60)).padStart(2, "0");
+    
+    seconds = String(seconds).padStart(2, "0");
     return `${minutes}:${seconds}`
 
 }
