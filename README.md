@@ -1,22 +1,12 @@
-**Organization Structure**
-
-> src/components
-
-and
-> src/screens
-
-and
-> src/styles
+**Minimalist Pomodoro Party**
 
 
 
+###### From https://todoist.com/productivity-methods/pomodoro-technique:
 
-**Getting started:**
+"This popular time management method asks you to alternate pomodoros — focused work sessions — with frequent short breaks to promote sustained concentration and stave off mental fatigue."
 
-npm run dev 
+A little webapp written to time my study sessions. Written in React.
 
-to start the server
+![image](https://user-images.githubusercontent.com/34190361/196381355-3135bad6-f844-435f-80bf-84ca9c539b4f.png)
 
-npm install 
-
-to install dependencies 
