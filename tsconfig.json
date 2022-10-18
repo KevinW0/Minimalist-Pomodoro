@@ -4,12 +4,15 @@
         "sourceMap": true,
         "strict": true,
         "noImplicitReturns": true,
-        "noImplicitAny": true,
-        "module": "es6",
+        "noImplicitAny": false,
+        "module": "ES2015",
         "moduleResolution": "node",
         "target": "es5",
         "allowJs": true,
-        "jsx": "react",
+        "jsx": "react-jsx",
+        "allowSyntheticDefaultImports": true,
+        
+
     },
     "include": [
         "./src/**/*"
