@@ -38,11 +38,7 @@ const AppGrid = () => {
         <div style={{ height: "110%", width: "100vw", backgroundColor: "#373e98" }}>
             <Grid container spacing={3} justifyContent="center" >
                 <Grid item xs={12} >
-                    <Timer timeLeft={timeLeft} currentProgress={(timeLeft / breakOrWork.totalTime) * 100} studyState={breakOrWork.state} invokeOnZeroTime={() => {
-                        clearTimeout(timeoutID)
-                        toggleHandler("reset")
-                    }
-                    } />
+                    <Timer timeLeft={timeLeft} currentProgress={(timeLeft / breakOrWork.totalTime) * 100} />
                 </Grid>
 
                 <Grid item xs={4}>
